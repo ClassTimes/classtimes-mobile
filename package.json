@@ -28,6 +28,7 @@
     "prepare": "npm-run-all patch hack:*"
   },
   "dependencies": {
+    "@nestjs/passport": "^7.1.5",
     "@react-native-async-storage/async-storage": "^1.14.1",
     "@react-native-community/masked-view": "0.1.10",
     "@react-navigation/native": "5.8.10",
@@ -39,6 +40,8 @@
     "mobx": "6.0.4",
     "mobx-react-lite": "3.1.6",
     "mobx-state-tree": "4.0.2",
+    "passport": "^0.4.1",
+    "passport-local": "^1.0.0",
     "ramda": "0.27.1",
     "react": "16.14.0",
     "react-native": "^0.63.4",
